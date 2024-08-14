@@ -3,11 +3,32 @@
 typedef enum {
         ID = 256, 
 	NUM, 
-        KEY,
-        SYM,  
-        SYMC, 
-        CHAR,
-	STR,
-	ERROR
+
+        ARRAY, 
+        BOOLEAN, 
+        CHARLIT, 
+        ELSE, 
+        FALSE, 
+        FOR, 
+        FUNCTION, 
+        IF, 
+        INTEGER, 
+        PRINT, 
+        RETURN, 
+        STRING, 
+        TRUE, 
+        VOID, 
+        WHILE, 
+
+        LEQ, 
+        GEQ, 
+        EQ, 
+        NE, 
+        AND, 
+        OR, 
+
+        CHAR, 
+	STR, 
+	ERROR 
 } token_t; 
 
